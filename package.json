@@ -1,0 +1,21 @@
+{
+  "name": "eyec4tch",
+  "displayName": "eyec4tch",
+  "description": "eyec4tch by frz",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "eyec4tch",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eyec4tch-color-theme.json"
+      }
+    ]
+  }
+}
