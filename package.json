@@ -3,19 +3,23 @@
   "displayName": "eyec4tch",
   "description": "eyec4tch by frz",
   "version": "0.0.1",
+  "publisher": "eezh",
   "engines": {
     "vscode": "^1.73.0"
   },
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fareezha/theme-eyec4tch"
+
+  },
   "contributes": {
-    "themes": [
-      {
-        "label": "eyec4tch",
-        "uiTheme": "vs-dark",
-        "path": "./themes/eyec4tch-color-theme.json"
-      }
-    ]
+    "themes": [{
+      "label": "eyec4tch",
+      "uiTheme": "vs-dark",
+      "path": "./themes/eyec4tch-color-theme.json"
+    }]
   }
 }
